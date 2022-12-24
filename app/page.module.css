@@ -1,0 +1,71 @@
+.main_text {
+  font-size: 9rem;
+  font-weight: 700;
+}
+
+.sub_text {
+  font-size: 1.9rem;
+  font-weight: 300;
+}
+
+.quote {
+  position: relative;
+  margin-top: 0.3rem;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 3rem;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stack {
+  font-size: 2.3rem;
+  margin-bottom: 0.2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.3rem;
+  padding: 0.3rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_link {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0.5rem 2rem;
+  background-color: #313131;
+  border-radius: 0.3rem;
+  color: #FFF3E1;
+}
